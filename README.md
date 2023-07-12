@@ -7,7 +7,7 @@ My first steps in JavaScript 😊
 
 -	[https://www.linkedin.com/in/napoleon-anaya/](https://www.linkedin.com/in/napoleon-anaya/)
 
-## Preview PC
+## Preview
 
 ![..](https://github.com/alucart2005/littleJS_method_onMouseOver/blob/main/img/preview.jpg?raw=true)
 
