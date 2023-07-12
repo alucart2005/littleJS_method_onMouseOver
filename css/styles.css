@@ -129,4 +129,46 @@ body {
 .container .btn:hover {
   letter-spacing: 2px;
   font-weight: 800;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background: url(../img/bg-wpd.jpg);
+    background-size: cover;
+  }
+  .container {
+    width: 300px;
+    height: 300px;
+  }
+  .container .thum li {
+    width: 80px;
+    height: 80px;
+    margin: 5px 0;
+  }
+  .container .thum li img {
+    width: 70%;
+  }
+  .container .imgBox {
+    width: 250px;
+    padding: 20px;
+    padding-left: 30px;
+  }
+  .container .imgBox h2 {
+    font-size: 1.2rem;
+  }
+  .container .imgBox img {
+    width: 100%;
+  }
+  .container .cc span {
+    font-size: 1rem;
+  }
+  .container .cc li {
+    width: 35px;
+    height: 25px;
+    font-size: 0.8rem;
+  }
+  .container .btn {
+    padding: 8px 20px;
+    font-size: 0.8rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

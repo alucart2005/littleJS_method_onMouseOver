@@ -128,3 +128,49 @@ body{
      
   }
 }
+
+@media screen and (max-width: 400px) {
+  body{
+    background: url(../img/bg-wpd.jpg);
+    background-size: cover;
+  }
+  .container{
+    width: 300px;
+    height: 300px;
+    .thum{
+      li{
+        width: 80px;
+        height: 80px;
+        margin: 5px 0;
+        img{
+          width: 70%;
+        }
+      }
+    }
+    .imgBox{
+      width: 250px;
+      padding: 20px;
+      padding-left: 30px;
+      h2{
+        font-size: 1.2rem;
+      }
+      img{
+        width: 100%;
+      }
+    }
+    .cc{
+      span{
+        font-size: 1rem;
+      }
+      li{
+        width: 35px;
+        height: 25px;
+        font-size: 0.8rem;
+      }
+    }
+    .btn{
+      padding: 8px 20px;
+      font-size: 0.8rem;
+    }
+  }
+}
